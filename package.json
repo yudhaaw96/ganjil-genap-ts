@@ -1,12 +1,14 @@
 {
   "name": "ganjil-genap-ts",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "",
-  "main": "index.js",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "tsc",
-    "prepublish": "git push"
+    "prepublish": "git push",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
@@ -16,13 +18,17 @@
     "even",
     "odd"
   ],
-  "author": "",
+  "author": "Ernest Izdebski, Yudha",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/yudhaaw96/ganjil-genap-ts/issues"
   },
   "homepage": "https://github.com/yudhaaw96/ganjil-genap-ts#readme",
   "dependencies": {
-    "is-even-odd-ts": "^1.0.4"
+    "is-even-odd-ts": "^1.0.4",
+    "is-not-odd-even-ts": "^0.7.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.8.4"
   }
 }
