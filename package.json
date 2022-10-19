@@ -1,0 +1,28 @@
+{
+  "name": "ganjil-genap-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc",
+    "prepublish": "git push"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yudhaaw96/ganjil-genap-ts.git"
+  },
+  "keywords": [
+    "even",
+    "odd"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yudhaaw96/ganjil-genap-ts/issues"
+  },
+  "homepage": "https://github.com/yudhaaw96/ganjil-genap-ts#readme",
+  "dependencies": {
+    "is-even-odd-ts": "^1.0.4"
+  }
+}
